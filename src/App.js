@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import ListGroup from "./components/ListGroup";
+import "./index.css";
+import CardContainer from "./components/CardContainerProfile";
+import { cardData, raceData, profile } from "./components/data";
+import ProfilePicture from "./components/ProfileBody";
+import Header from "./components/Header";
+import Profile from "./pages/Profile";
+import Home from "./pages/Home";
+import Expanded from "./pages/Expanded";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Expanded></Expanded>
     </div>
   );
 }

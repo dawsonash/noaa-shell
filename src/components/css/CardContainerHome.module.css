@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  max-width: 1267px;
+  width: 75%;
+  height: 35vh;
+  padding: 50px;
+  padding-top: 90px;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  flex-shrink: 0;
+  background-color: white;
+  border-radius: 10px;
+  gap: 6%;
+  }
+  
+  .title {
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    padding-left: 10vw;
+    top: 0px;
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .raceName {
+    color: #000;
+
+    /* race heading */
+    font-family: "IBM Plex Mono";
+    margin: 0px;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .date{
+    color: #000;
+
+    /* title */
+    font-family: Kanit;
+    margin-top: 0;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .titleDate{
+    width: 98%;
+    position: absolute;
+    top: 4px;
+    left: 0px;
+    padding-left: 2%;
+    gap: 0px;
+  }
+  
+  .cardWrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: calc(2% + 5px);
+    justify-content: space-between;  
+}

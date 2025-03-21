@@ -1,0 +1,42 @@
+.listGroup {
+    padding-left: 10vw;
+    padding-right: 10vw;
+    border-radius: 8px;
+    margin-top: 16px;
+  }
+  
+  .listItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 16px;
+    margin: 8px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e5e7eb;
+  }
+  .title{
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    padding-left: 10vw;
+    top: 0px;
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  
+  .button {
+    border: 1px solid #10b981;
+    color: #059669;
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .button:hover {
+    background-color: #d1fae5;
+  }
