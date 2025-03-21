@@ -15,7 +15,7 @@ const Card = ({ category }) => {
                   src={item.image}
                   alt="Race Image"
                   className={styles.image}
-                  style={{ width: "149px", height: "220px", borderRadius: "10px" }}
+                  style={{ width: "149px", height: "172px", borderRadius: "10px" }}
                 />
               ) : (
                 <>

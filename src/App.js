@@ -12,7 +12,7 @@ import Expanded from "./pages/Expanded";
 function App() {
   return (
     <div>
-      <Expanded></Expanded>
+      <Home></Home>
     </div>
   );
 }
