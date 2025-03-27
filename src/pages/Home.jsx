@@ -8,7 +8,6 @@ function Home() {
   
     return (
         <div>
-            <Header></Header>
             <div>
             <CardContainerHome race={raceInfo} title="Bolder Boulder" date="May 26, 2025"/>
             </div>

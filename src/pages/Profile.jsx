@@ -9,7 +9,6 @@ import Header from "../components/Header";
 function Profile() {
   return (
     <div>
-      <Header></Header>
       <div>
         <ProfilePicture profile={profile} />
         <div>

@@ -1,7 +1,6 @@
 import React from "react";
-import ListGroup from "./components/ListGroup";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./index.css";
-import CardContainer from "./components/CardContainerProfile";
 import { cardData, raceData, profile } from "./components/data";
 import ProfilePicture from "./components/ProfileBody";
 import Header from "./components/Header";
@@ -11,9 +10,14 @@ import Expanded from "./pages/Expanded";
 
 function App() {
   return (
-    <div>
-      <Home></Home>
-    </div>
+    <Router>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/profile" element={<Profile />} />
+        <Route path="/expanded" element={<Expanded />} />
+      </Routes>
+    </Router>
   );
 }
 
