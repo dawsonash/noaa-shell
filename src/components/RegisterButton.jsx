@@ -5,9 +5,10 @@ import AssignmentIcon from '@mui/icons-material/Assignment';
 const RegisterButton = () => {
     return (
         <button style={{
-            width: '50%', 
-            margin: 16, 
-            height: '100%', 
+            width: '40%', 
+            margin: 12, 
+            border: 'none',
+            height: '80%', 
             paddingLeft: '2em', 
             paddingRight: '2em', 
             paddingTop: '1em', 

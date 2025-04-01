@@ -4,10 +4,10 @@ import PersonAddIcon from '@mui/icons-material/PersonAdd';
 const InviteFriendsButton = () => {
     return (
 <button style={{
-    width: '50%', 
+    width: '40%', 
     margin: 16, 
-    height: '100%', 
-    padding: '1em', 
+    height: '80%', 
+    padding: '5%', 
     borderRadius: 5, 
     justifyContent: 'center', 
     alignItems: 'center', 

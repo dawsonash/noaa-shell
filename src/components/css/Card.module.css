@@ -3,13 +3,14 @@
 
 .card {
   display: flex;
-  height: 220px;
+  height: 30cqh;
   padding-left: 4vw;
   padding-right: 4vw;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 8cqw;
+  min-width: 15cqw;
   align-self: stretch;
   border-radius: 9.6px;
   background: #D9D9D9;

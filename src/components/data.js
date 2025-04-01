@@ -68,5 +68,35 @@ const raceInfo = [
     ],
   },
 ];
-
+const bolderBoulderData = [
+  {
+    title: "Map",
+    items: [{ image: "https://placehold.co/400" }],
+  },
+  {
+    title: "Information",
+    items: [
+      { name: "Weather", content: "75°F, Sunny" },
+      { name: "Distance", content: "10K" },
+      { name: "Elevation Gain", content: "+260 feet" },
+    ],
+  },
+  {
+    title: "Top Performances",
+    items: [
+      { name: "Boston Marathon", content: "5 hours 16 minutes" },
+      { name: "Pueblo Marathon", content: "5 hours 29 minutes" },
+      { name: "Denver Marathon", content: "6 hours 20 minutes" },
+    ],
+  },
+  {
+    title: "Recent Performances",
+    items: [
+      { name: "Boston Marathon", content: "5 hours 16 minutes" },
+      { name: "Bolder Boulder", content: "1 hour 8 minutes" },
+      { name: "Denver Marathon", content: "6 hours 20 minutes" },
+    ],
+  },
+];
+export { bolderBoulderData };
 export { cardData, raceData, profile, raceInfo };
